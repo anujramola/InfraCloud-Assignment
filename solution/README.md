@@ -117,3 +117,28 @@ Set the environment variable CSVSERVER_BORDER to have value Orange.
 
 
 ![q6](Output_Screenshots/q6.png)
+
+
+***Part II***
+
+Commands used :
+
+**apt install docker-compose**
+
+**vi docker-compose.yaml**
+
+
+![Part-2(q2)](Output_Screenshots/Part-2(q2).png)
+
+**cat csvserver.env**
+**CSVSERVER_BORDER=Orange**
+
+***To start the server using docker compose use:***
+
+**docker-compose up -d**
+
+**To access the server : In the browser use localhost:9393**
+
+***Result with border **WHITE**:*** 
+
+![Part-2-output](Output_Screenshots/part-2-output.png)
