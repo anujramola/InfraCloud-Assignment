@@ -131,13 +131,16 @@ Commands used :
 ![Part-2(q2)](Output_Screenshots/Part-2(q2).png)
 
 **cat csvserver.env**
+
 **CSVSERVER_BORDER=Orange**
 
 ***To start the server using docker compose use:***
 
 **docker-compose up -d**
 
-**To access the server : In the browser use localhost:9393**
+***To access the server : In the browser use***
+
+ **localhost:9393**
 
 ***Result with border **WHITE**:*** 
 
