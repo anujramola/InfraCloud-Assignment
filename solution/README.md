@@ -127,12 +127,11 @@ Commands used :
 
 **vi docker-compose.yaml**
 
-
 ![Part-2(q2)](Output_Screenshots/Part-2(q2).png)
 
 **cat csvserver.env**
 
-**CSVSERVER_BORDER=Orange**
+***CSVSERVER_BORDER=Orange***
 
 ***To start the server using docker compose use:***
 
@@ -144,4 +143,4 @@ Commands used :
 
 ***Result with border **WHITE**:*** 
 
-![Part-2-output](Output_Screenshots/part-2-output.png)
+![Part-2-output](Output_Screenshots/Part-2-output.png)
