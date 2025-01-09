@@ -144,3 +144,12 @@ Commands used :
 ***Result with border **WHITE**:*** 
 
 ![Part-2-output](Output_Screenshots/Part-2-output.png)
+
+
+***PART-3***
+Q-0 Delete any containers running from the last part.
+
+**docker-compose down***
+
+![Part-3(q0)](Part-3(q0).png)
+
