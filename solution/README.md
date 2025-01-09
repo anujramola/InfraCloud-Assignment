@@ -175,7 +175,7 @@ We know that the port for running the csvserver container was 9300.
 
 ***docker-compose up -d***
 
-![Part-3-server](Part-3-server.png)
+![Part-3-server](Output_Screenshots/Part-3-server.png)
 
 
 Q-3 Make sure that Prometheus is accessible at http://localhost:9090 on the host.
