@@ -151,5 +151,39 @@ Q-0 Delete any containers running from the last part.
 
 **docker-compose down***
 
-![Part-3(q0)](Part-3(q0).png)
+![Part-3(q0)](Output_Screenshots/Part-3(q0).png)
+
+Q-1 Add Prometheus container (prom/prometheus:v2.45.2) to the docker-compose.yaml form part II.
+
+**vi docker-compose.yaml***
+
+[View the configuration file](docker-compose.yaml)
+
+
+Q-2 Configure Prometheus to collect data from our application at <application>:<port>/metrics endpoint. (Where the <port> is the port from I.5)
+
+We know that the port for running the csvserver container was 9300.
+
+**vi prometheus.yaml**
+
+![Part-3(q2)](Output_Screenshots/Part-3(q2).png)
+
+**It is mounted to prometheus container as volume when it is started which is responsible for collecting the csvserver metrics at port 9300**
+
+![prometheus-metrics-vol](Output_Screenshots/prometheus-metrics-vol.png)
+
+
+***docker-compose up -d***
+
+![Part-3-server](Part-3-server.png)
+
+
+Q-3 Make sure that Prometheus is accessible at http://localhost:9090 on the host.
+
+Q-4 Type csvserver_records in the query box of Prometheus. Click on Execute and then switch to the Graph tab.
+
+***Prometheus server for time range 5min***
+
+![Part-3(q3)](Output_Screenshots/Part-3(q3).png)
+
 
